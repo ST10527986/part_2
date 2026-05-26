@@ -69,6 +69,9 @@ changelog:
  -Edited Html aboutus page adding all needed divs, structure changes, and broken links + missing css link
  -Edited Html contact page adding all needed divs, structure changes, and broken links + missing css link
 
+ Added the following info in the business proposal as feedback from my respective lecturer,"Design and user experience: Create a colour palette that shows all the colours used and show an example of the (typography) fonts used as well as the font sizes.
+Technical Requirements: provide clear explanations on the following topics - Infrastructure & Hosting, Performance & Accessibility, Security & Compliance, Functional Integrations, and Ongoing Maintenance."
+
  References:
 
  Google (2026) Web hosting services. Available at: 
