@@ -28,6 +28,19 @@ img {
     max-width: 100%;
     height: auto;
 }
+.volunteer-image {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.volunteer-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
 /* LAYOUT CONTAINER */
 
 .container {
