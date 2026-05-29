@@ -64,5 +64,50 @@ nav ul li a:hover {
     background-color: #2e7d32;
     color: #fff;
 }
+/* MAIN CONTENT */
 
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+/* Sections */
+section {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h2 {
+    color: #2e7d32;
+    margin-bottom: 10px;
+}
+/* SECTION STYLING */
+
+section {
+    background-color: var(--white-color);
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--main-shadow);
+    transition: transform var(--transition-speed),
+                box-shadow var(--transition-speed);
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--hover-shadow);
+}
+
+#home,
+#about,
+#services,
+#contact,
+#Volunteer {
+    border-left: 6px solid var(--primary-color);
+}
 
