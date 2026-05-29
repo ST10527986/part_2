@@ -18,6 +18,16 @@ img {
     max-width: 100%;
     height: auto;
 }
+/* LAYOUT CONTAINER */
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 /* HEADER */
 header {
     background-color: #ffffff;
@@ -54,4 +64,5 @@ nav ul li a:hover {
     background-color: #2e7d32;
     color: #fff;
 }
+
 
