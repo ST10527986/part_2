@@ -140,7 +140,25 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
     }
+// -------------------------------
+// 6. SCROLL ANIMATION
+// -------------------------------
 
+const sections = document.querySelectorAll("section, form, .about-content");
+
+function revealSections() {
+    sections.forEach(function (section) {
+        const sectionPosition = section.getBoundingClientRect().top;
+        const screenPosition = window.innerHeight - 100;
+
+        if (sectionPosition < screenPosition) {
+            section.classList.add("show-section");
+        }
+    });
+}
+
+window.addEventListener("scroll", revealSections);
+revealSections(); 
 
 
 
