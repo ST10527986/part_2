@@ -47,6 +47,29 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         });
     }
+ // -------------------------------
+    // 3. ACCORDION FOR SERVICES
+    // -------------------------------
+
+    const serviceCards = document.querySelectorAll(".service");
+
+    serviceCards.forEach(function (service) {
+        const heading = service.querySelector("h3");
+        const paragraph = service.querySelector("p");
+
+        if (heading && paragraph) {
+            paragraph.style.display = "none";
+            heading.style.cursor = "pointer";
+
+            heading.addEventListener("click", function () {
+                if (paragraph.style.display === "none") {
+                    paragraph.style.display = "block";
+                } else {
+                    paragraph.style.display = "none";
+                }
+            });
+        }
+    });
 
 
 
