@@ -243,5 +243,28 @@ if (galleryImages.length > 0) {
 
 }
 
+// -------------------------------
+// SERVICE SEARCH BAR
+// -------------------------------
+
+const serviceSearch = document.querySelector("#serviceSearch");
+const services = document.querySelectorAll(".service");
+
+if (serviceSearch) {
+    serviceSearch.addEventListener("keyup", function () {
+        const searchValue = serviceSearch.value.toLowerCase();
+
+        services.forEach(function (service) {
+            const serviceText = service.textContent.toLowerCase();
+
+            if (serviceText.includes(searchValue)) {
+                service.style.display = "block";
+            } else {
+                service.style.display = "none";
+            }
+        });
+    });
+}
+
 
 
