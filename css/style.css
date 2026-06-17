@@ -438,13 +438,9 @@ footer p {
 section,
 form,
 .about-content {
-    opacity: 0;
-    transform: translateY(30px);
+    opacity: 1;
+    transform: translateY(0);
     transition: 0.6s ease;
 }
 
-.show-section {
-    opacity: 1;
-    transform: translateY(0);
-}
 
