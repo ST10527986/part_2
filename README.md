@@ -91,7 +91,7 @@ Part 1 of the project required the creation of two business proposals. After eva
 
 # Sitemap
 The sitemap below illustrates the structure of the Safe Haven ZA website and the navigation flow between pages.
-> ![Safe Haven sitemap](Images/Site%20map.png)
+> ![Safe Haven sitemap](images/Site%20map.png)
 
 **Figure 1:** Website Sitemap  
 *Source: OpenAI (2026)*
