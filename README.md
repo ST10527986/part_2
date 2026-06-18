@@ -185,7 +185,7 @@ Added the following sections to the business proposal:
 
 ## 2026-06-17
 
-#### Added Content and research into proposal
+#### Added Content and research into proposal + Wireframe
 - Existing content info
 - social media info
 - Public and domain
